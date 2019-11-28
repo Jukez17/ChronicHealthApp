@@ -1,0 +1,87 @@
+{
+  "BACK": {
+    "BACK_BUTTON_TEXT": "Voltar"
+  },
+  "LOGIN": {
+    "EMAIL": "E-mail",
+    "PASSWORD": "Password",
+    "SELECT_LANGUAGE": "Idioma",
+    "LOGIN_BUTTON": "Entrar",
+    "SIGNUP_BUTTON": "Registar",
+    "FORGOT_BUTTON": "Esqueceu a Password?"
+  },
+  "REGISTER": {
+    "REGISTER_USER": "Registre o usuário",
+    "EMAIL": "E-mail",
+    "PASSWORD": "Password",
+    "CREATE_ACCOUNT": "Criar conta"
+  },
+  "FORGOT_PASSWORD": {
+    "RESET_PASSWORD": "Nova senha",
+    "EMAIL": "E-mail",
+    "RESET_BUTTON": "Redefinir Password"
+  },
+  "PLACEHOLDERS": {
+    "PLACEHOLDER_EMAIL": "Endereco de e-mail",
+    "PLACEHOLDER_PASSWORD": "******",
+    "LEVELOFPAIN_PLACEHOLDER": "N�vel de dor",
+    "PLACEHOLDER_DIARY": "Escreva aqui...",
+    "ACTIVITY_PLACEHOLDER": "Atividade",
+    "PLACEHOLDER_LIVESTREAM": "Em breve",
+    "PLACEHOLDER_CHAT": "Escrever aqui..."
+  },
+  "ACCOUNT": {
+    "ACCOUNT_INFORMATION": "Informa��o da conta",
+    "COUNTRY": "Pa�s",
+    "EMAIL": "E-mail",
+    "USERNAME": "Nome de usu�rio",
+    "PASSWORD": "Password",
+    "CLICK_EDIT": "Clique para editar"
+  },
+  "REQUIREMENTS": {
+    "REQUIREMENTS_EMAIL": "Introduza um endere�o de e-mail v�lido",
+    "REQUIREMENTS_PASSWORD": "Password deve conter 6 caracteres"
+  },
+  "MAIN_VIEW": {
+    "RATEYOURPAIN_BUTTON": "Classifique a sua Dor"
+  },
+  "PAIN_LOG": {
+    "RATEYOURPAIN_BUTTON": "Avalie sua dor",
+    "ACTIVITIES": "Atividades",
+    "CREATE_LOG": "Criar Log"
+  },
+  "MODAL": {
+    "BEFORE": "Antes",
+    "AFTER": "Depois de",
+    "PAIN_BEFORE": "Dor antes",
+    "PAIN_AFTER": "Dor após",
+    "ACTIVITY": "Atividade",
+    "DATE": "Data",
+    "TIME": "Hora"
+  },
+  "ADD_LOGS": {
+    "ACTIVITY_NAME": "Nome da Atividade",
+    "PAIN_BEFORE": "Dor antes",
+    "PAIN_AFTER": "Dor após",
+    "DATE_PICK": "Data",
+    "TIME_PICK": "Hora",
+    "ADD_LOG": "Adicionar"
+  },
+  "USER_DIARY": {
+    "DIARY": "Di�rio",
+    "DATE": "Data",
+    "SEND_BUTTON": "Enviar"
+  },
+  "LIVESTREAM": {},
+  "CHAT": {
+    "SEND_BUTTON": "Enviar"
+  },
+  "SIDE_MENU": {
+    "PROFILE": "Perfil",
+    "MENU": "Menu",
+    "LOG_OUT": "Sair"
+  },
+  "TERMS": {
+    "TERMS_CONDITIONS": "termos e Condições"
+  }
+}

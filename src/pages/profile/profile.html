@@ -1,0 +1,78 @@
+<ion-header>
+    <ion-navbar color="primary">
+      <ion-title>
+        ChronicHealth
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-list-header>
+      {{ 'ACCOUNT.ACCOUNT_INFORMATION' | translate }}
+    </ion-list-header>
+
+    <ion-item (click)="updateUserName()">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-6>{{ 'ACCOUNT.USERNAME' | translate }}</ion-col>
+          <ion-col col-6 *ngIf="userProfile?.userName">
+            {{userProfile?.userName}}
+          </ion-col>
+          <ion-col col-6 class="placeholder-profile" *ngIf="!userProfile?.userName">
+            <span>{{ 'ACCOUNT.CLICK_EDIT' | translate }}</span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item (click)="updateCountry()">
+        <ion-grid>
+          <ion-row>
+            <ion-col col-6>{{ 'ACCOUNT.COUNTRY' | translate }}</ion-col>
+            <ion-col col-6 *ngIf="userProfile?.Country">
+              {{userProfile?.Country}}
+            </ion-col>
+            <ion-col col-6 class="placeholder-profile" *ngIf="!userProfile?.Country">
+              <span>{{ 'ACCOUNT.CLICK_EDIT' | translate }}</span>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+
+    <ion-item (click)="updateEmail()">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-6>{{ 'ACCOUNT.EMAIL' | translate }}</ion-col>
+          <ion-col col-6 *ngIf="userProfile?.email">
+            {{userProfile?.email}}
+          </ion-col>
+          <ion-col col-6 class="placeholder-profile" *ngIf="!userProfile?.email">
+            <span>{{ 'ACCOUNT.CLICK_EDIT' | translate }}</span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item (click)="updatePassword()">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-6>{{ 'ACCOUNT.PASSWORD' | translate }}</ion-col>
+          <ion-col col-6 class="placeholder-profile">
+            <span>{{ 'ACCOUNT.CLICK_EDIT' | translate }}</span>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button full (click)="verifyAccount()">
+        Verify Account
+      </button>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content> 

@@ -1,0 +1,65 @@
+page-rate-my-pain {
+
+    .segment-element {
+        margin-top: 3em;
+    }
+
+    .badgeColor {
+        background-color: #f53d3d;
+    }
+
+    .log-item {
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        margin-bottom: 0.1em;
+    }
+
+    .ion-md-open:before {
+        margin-left: 3em;
+    }
+
+    .ion-ios-open:before {
+        margin-left: 3em;
+    }
+
+    .add-fab {
+        bottom: -0.4em;
+    }
+
+    .diary-date {
+        padding-left: 0em;
+        margin-top: -1em;
+    }
+
+    .diary-text {
+        font-family: Arial;
+        font-size: 1.1em;
+        color: #333;
+        line-height: 1.2;
+        letter-spacing: .1em;
+        margin: 0;
+    }
+
+    .diary-entry {
+        border-bottom: 0.01em solid #333;
+    }
+
+    .create-log-button {
+        height: 3.4em;
+    }
+
+    .footer-bg {
+        background-color: "#488aff";
+    }
+
+    .footer-add-button {
+        bottom: -4px;
+    }
+
+    .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before {
+        background-image: none !important;
+    }
+
+
+
+} 

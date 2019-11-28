@@ -1,0 +1,103 @@
+<div padding>
+      <ion-header>
+        <ion-navbar color="primary">
+          <ion-title>
+            Chronic Health
+          </ion-title>
+          <ion-buttons end>
+            <button ion-button menuToggle>
+              <ion-icon name="menu"></ion-icon>
+            </button>
+          </ion-buttons>
+        </ion-navbar>
+      </ion-header>
+  </div>
+
+<ion-content padding>
+
+  <div class="segment-element" padding>
+    <ion-segment [(ngModel)]="logs">
+      <ion-segment-button value="logyourpain">
+        {{ 'PAIN_LOG.RATEYOURPAIN_BUTTON' | translate }}
+      </ion-segment-button>
+      <ion-segment-button value="diary">
+        {{ 'USER_DIARY.DIARY' | translate }}
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="logs">
+
+    <div *ngSwitchCase="'logyourpain'">
+
+      <h2>{{ 'PAIN_LOG.ACTIVITIES' | translate }}:</h2>
+
+      <ion-card *ngFor="let log of logList">
+        <ion-list>
+          <ion-item (click)="openModal(log.id)">
+            <ion-row>
+              <ion-col>
+                <h2>{{log?.log}}</h2>
+              </ion-col>
+              <ion-col></ion-col>
+              <ion-col end>
+                <ion-icon ios="ios-open" md="md-open" (click)="openModal(log.id)"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+
+    </div>
+
+    <div *ngSwitchCase="'diary'">
+
+      <ion-card *ngFor="let diary of diaryLog" padding>
+
+        <ion-card-content #popoverContent>
+          <ion-item class="diary-date">
+
+            <p>{{ 'USER_DIARY.DATE' | translate }}: {{diary?.date | date: 'dd/MM/yyyy'}}</p>
+
+          </ion-item>
+
+          <p #popoverText class="diary-text">
+            {{diary?.diary}}
+          </p>
+        </ion-card-content>
+
+      </ion-card>
+
+    </div>
+
+  </div>
+
+</ion-content>
+
+<div [ngSwitch]="logs">
+
+  <div *ngSwitchCase="'logyourpain'">
+
+    <ion-footer class="footer-add-button">
+
+      <button class="create-log-button" ion-button icon-right full color="primary" (click)="goToAddLog()"> {{ 'PAIN_LOG.CREATE_LOG' | translate }}
+        <ion-icon name="add"></ion-icon>
+      </button>
+
+    </ion-footer>
+
+  </div>
+
+  <div *ngSwitchCase="'diary'">
+
+    <ion-footer class="footer-bg">
+
+      <ion-item>
+        <ion-input type="text" placeholder="{{ 'PLACEHOLDERS.PLACEHOLDER_DIARY' | translate }}" [(ngModel)]="diaryEntry" clearInput></ion-input>
+        <button ion-button clear item-right (click)="createDiary(diaryEntry, dateEntry)">{{ 'USER_DIARY.SEND_BUTTON' | translate }}</button>
+      </ion-item>
+
+    </ion-footer>
+
+  </div>
+</div>

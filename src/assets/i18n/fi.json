@@ -1,0 +1,87 @@
+{
+  "BACK": {
+    "BACK_BUTTON_TEXT": "Takaisin"
+  },
+  "LOGIN": {
+    "EMAIL": "Sähköposti",
+    "PASSWORD": "Salasana",
+    "LOGIN_BUTTON": "Kirjaudu Sisään",
+    "SIGNUP_BUTTON": "Rekisteröidy",
+    "FORGOT_BUTTON": "Unohtuiko Salasana?",
+    "SELECT_LANGUAGE": "Valitse Kieli"
+  },
+  "REGISTER": {
+    "REGISTER_USER": "Rekisteröidy",
+    "EMAIL": "Sähköposti",
+    "PASSWORD": "Salasana",
+    "CREATE_ACCOUNT": "Luo Tili"
+  },
+  "FORGOT_PASSWORD": {
+    "RESET_PASSWORD": "Pyydä uusi salasana",
+    "EMAIL": "Sähköposti",
+    "RESET_BUTTON": "Uusi Salasana"
+  },
+  "PLACEHOLDERS": {
+    "PLACEHOLDER_EMAIL": "Sähköpostiosoite",
+    "PLACEHOLDER_PASSWORD": "******",
+    "LEVELOFPAIN_PLACEHOLDER": "Kivun Taso",
+    "PLACEHOLDER_DIARY": "Kirjoita tähän...",
+    "ACTIVITY_PLACEHOLDER": "Aktiviteetti",
+    "PLACEHOLDER_LIVESTREAM": "Tulossa pian",
+    "PLACEHOLDER_CHAT": "Kirjoita tähän..."
+  },
+  "ACCOUNT": {
+    "ACCOUNT_INFORMATION": "Tilin Tiedot",
+    "COUNTRY": "Maa",
+    "EMAIL": "Sähköposti",
+    "USERNAME": "Käyttäjänimi",
+    "PASSWORD": "Salasana",
+    "CLICK_EDIT": "Muokkaa"
+  },
+  "REQUIREMENTS": {
+    "REQUIREMENTS_EMAIL": "Anna oikea sähköposti osoite",
+    "REQUIREMENTS_PASSWORD": "Salasanan tulee olla vähintään 6 kirjainta"
+  },
+  "MAIN_VIEW": {
+    "RATEYOURPAIN_BUTTON": "Kipu Loki"
+  },
+  "PAIN_LOG": {
+    "RATEYOURPAIN_BUTTON": "Kipu Loki",
+    "ACTIVITIES": "Aktiviteetit",
+    "CREATE_LOG": "Luo Loki"
+  },
+  "MODAL": {
+    "BEFORE": "Ennen",
+    "AFTER": "Jälkeen",
+    "PAIN_BEFORE": "Kipu ennen",
+    "PAIN_AFTER": "Kipu jälkeen",
+    "ACTIVITY": "Aktiviteetti",
+    "DATE": "Päivämäärä",
+    "TIME": "Kello"
+  },
+  "ADD_LOGS": {
+    "ACTIVITY_NAME": "Aktiviteetin Nimi",
+    "PAIN_BEFORE": "Kipu ennen",
+    "PAIN_AFTER": "Kipu jälkeen",
+    "DATE_PICK": "Päivämäärä",
+    "TIME_PICK": "Kellonaika",
+    "ADD_LOG": "Lisää Loki"
+  },
+  "USER_DIARY": {
+    "DIARY": "Päiväkirja",
+    "DATE": "Päivämäärä",
+    "SEND_BUTTON": "Lähetä"
+  },
+  "LIVESTREAM": {},
+  "CHAT": {
+    "SEND_BUTTON": "Lähetä"
+  },
+  "SIDE_MENU": {
+    "PROFILE": "Profiili",
+    "MENU": "Valikko",
+    "LOG_OUT": "Kirjaudu ulos"
+  },
+  "TERMS": {
+    "TERMS_CONDITIONS": "Käyttöehdot"
+  }
+}

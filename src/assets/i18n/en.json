@@ -1,0 +1,87 @@
+{
+  "BACK": {
+    "BACK_BUTTON_TEXT": "Back"
+  },
+  "LOGIN": {
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "SELECT_LANGUAGE": "Language",
+    "LOGIN_BUTTON": "Log In",
+    "SIGNUP_BUTTON": "Register",
+    "FORGOT_BUTTON": "Forgot Password?"
+  },
+  "REGISTER": {
+    "REGISTER_USER": "Sign Up",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "CREATE_ACCOUNT": "Sign Up"
+  },
+  "FORGOT_PASSWORD": {
+    "RESET_PASSWORD": "Request new password",
+    "EMAIL": "Email",
+    "RESET_BUTTON": "Reset Password"
+  },
+  "PLACEHOLDERS": {
+    "PLACEHOLDER_EMAIL": "Email address",
+    "PLACEHOLDER_PASSWORD": "******",
+    "LEVELOFPAIN_PLACEHOLDER": "Level Of Pain",
+    "PLACEHOLDER_DIARY": "Type here...",
+    "ACTIVITY_PLACEHOLDER": "Activity",
+    "PLACEHOLDER_LIVESTREAM": "Coming Soon",
+    "PLACEHOLDER_CHAT": "Type here..."
+  },
+  "ACCOUNT": {
+    "ACCOUNT_INFORMATION": "Account Information",
+    "COUNTRY": "Country",
+    "EMAIL": "Email",
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "CLICK_EDIT": "Click To Edit"
+  },
+  "REQUIREMENTS": {
+    "REQUIREMENTS_EMAIL": "Give an valid email address",
+    "REQUIREMENTS_PASSWORD": "Password must be 6 characters long"
+  },
+  "MAIN_VIEW": {
+    "RATEYOURPAIN_BUTTON": "Rate Your Pain"
+  },
+  "PAIN_LOG": {
+    "RATEYOURPAIN_BUTTON": "Rate Your Pain",
+    "ACTIVITIES": "Activities",
+    "CREATE_LOG": "Create Log"
+  },
+  "MODAL": {
+    "BEFORE": "Before",
+    "AFTER": "After",
+    "PAIN_BEFORE": "Pain before",
+    "PAIN_AFTER": "Pain after",
+    "ACTIVITY": "Activity",
+    "DATE": "Date",
+    "TIME": "Time"
+  },
+  "ADD_LOGS": {
+    "ACTIVITY_NAME": "Name Of The Activity",
+    "PAIN_BEFORE": "Pain before",
+    "PAIN_AFTER": "Pain after",
+    "DATE_PICK": "Date",
+    "TIME_PICK": "Time",
+    "ADD_LOG": "Add Log"
+  },
+  "USER_DIARY": {
+    "DIARY": "Diary",
+    "DATE": "Date",
+    "SEND_BUTTON": "Send"
+  },
+  "LIVESTREAM": {},
+  "CHAT": {
+    "SEND_BUTTON": "Send"
+  },
+  "SIDE_MENU": {
+    "PROFILE": "Profile",
+    "MENU": "Menu",
+    "LOG_OUT": "Log Out"
+  },
+  "TERMS": {
+    "TERMS_CONDITIONS": "Terms & Conditions"
+  }
+}
